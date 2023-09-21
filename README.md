@@ -17,7 +17,7 @@
 #Usage
 - Update appsettings.json with any API keys
 - Build and run the API
-- Access endpoints via https://localhost:5001
+- Access endpoints via https://localhost:7032 OR http://localhost:5191
 - See Swagger UI for documentation
 
 ```
