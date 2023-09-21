@@ -42,10 +42,6 @@ namespace WebApi.Helpers
                 _logger.LogInformation("Response: {statusCode}",
                                         context.Response.StatusCode);
 
-                //// Create and save request log
-                //RequestLog requestLog = await CreateRequestLog(context);
-                //await requestLogRepository.AddRequestLog(requestLog);
-
             }
             catch (Exception ex)
             {
@@ -70,12 +66,6 @@ namespace WebApi.Helpers
                 body = await new StreamReader(context.Request.Body).ReadToEndAsync();
                 context.Request.Body.Position = 0;  //rewinding the stream to 0
             }
-
-            //if (context.Request.ContentLength > 0)
-            //{
-            //    body = await new StreamReader(context.Request.Body).ReadToEndAsync();
-            //    _logger.LogInformation("Request Body: {body}", body);
-            //}
 
             var requestLog = new RequestLog
             {
