@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CurrencyConverterTest.Core\**" />
+    <Content Remove="CurrencyConverterTest.Core\**" />
+    <EmbeddedResource Remove="CurrencyConverterTest.Core\**" />
+    <None Remove="CurrencyConverterTest.Core\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="RestSharp" Version="110.2.0" />
@@ -15,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Entities\CurrencyConverterTest.Core\CurrencyConverterTest.Core.csproj" />
+    <ProjectReference Include="CurrencyConverterTest.Core\CurrencyConverterTest.Core.csproj" />
   </ItemGroup>
 
 </Project>

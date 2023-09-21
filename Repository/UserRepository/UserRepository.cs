@@ -1,4 +1,3 @@
-using Azure.Core;
 using CurrencyConverterTest.Core.Entities;
 using CurrencyConverterTest.CustomException;
 using CurrencyConverterTest.Models;

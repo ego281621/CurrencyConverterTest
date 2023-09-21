@@ -1,5 +1,4 @@
 // Namespace imports
-using Azure.Core;
 using CurrencyConverterTest.Core.Entities; 
 using CurrencyConverterTest.Repository.RequestLogRepository;
 using System.Text;
