@@ -24,6 +24,7 @@
 -- Create DATABASE in you're local in SQL Server Management Studio
  Database Name: CurrencyTestDB
 
+#Database
 -- Run this script in your local SQL Server Management Studio
 -- Create the "User" table
 CREATE TABLE [dbo].[User](
