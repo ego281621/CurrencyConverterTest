@@ -4,7 +4,7 @@
 #Features
 -  Convert between different currency pairs
 -  Get list of supported currencies and latest exchange rates
--  Request logging to SQLite database
+-  Request logging to SQL Server database
 -  Swagger UI documentation
 -  Basic authentication
 -  Custom exception handling middleware
