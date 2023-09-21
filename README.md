@@ -59,7 +59,6 @@ CREATE TABLE [dbo].[RequestLog](
 - ASP.NET Core Web API
 - Entity Framework Core
 - Swashbuckle (Swagger)
-- Details
 - Dependency injection is used throughout for loose coupling
 - Repositories implement the repository pattern
 - Custom middlware for consistent exception handling
